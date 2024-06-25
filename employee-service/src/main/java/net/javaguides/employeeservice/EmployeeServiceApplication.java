@@ -17,9 +17,14 @@ public class EmployeeServiceApplication {
 		return new ModelMapper();
 	}
 
+//	@Bean
+//	public RestTemplate restTemplate() {
+//		return new RestTemplate();
+//	}
+
 	@Bean
-	public RestTemplate restTemplate() {
-		return new RestTemplate();
+	public WebClient webClient() {
+		return WebClient.builder().build();
 	}
 
 	public static void main(String[] args) {
