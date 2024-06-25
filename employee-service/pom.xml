@@ -14,6 +14,7 @@
 	<name>employee-service</name>
 	<description>Spring Boot project as employee-service</description>
 	<properties>
+		<spring-cloud.version>2023.0.2</spring-cloud.version>
 		<java.version>17</java.version>
 		<spring-cloud.version>2023.0.2</spring-cloud.version>
 	</properties>
@@ -57,6 +58,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 	</dependencies>
 
