@@ -1,8 +1,6 @@
 package net.javaguides.employeeservice.service.impl;
 
 import lombok.AllArgsConstructor;
-import net.javaguides.employeeservice.dto.APIResponseDto;
-import net.javaguides.employeeservice.dto.DepartmentDto;
 import net.javaguides.employeeservice.dto.EmployeeDto;
 import net.javaguides.employeeservice.entity.Employee;
 import net.javaguides.employeeservice.repository.EmployeeRepository;
